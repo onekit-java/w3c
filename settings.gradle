@@ -1,0 +1,2 @@
+include ':app', ':OnekitW3C'
+rootProject.name='W3CDemo'

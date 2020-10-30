@@ -5,12 +5,14 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.TextView;
 
+import androidx.appcompat.widget.AppCompatTextView;
+
 import cn.onekit.core.LITERAL_;
 import cn.onekit.js.JsString;
 import cn.onekit.js.JsObject_;
 
 
-public class LITERAL extends TextView implements Node, LITERAL_ {
+public class LITERAL extends AppCompatTextView implements Node, LITERAL_ {
 
 
 

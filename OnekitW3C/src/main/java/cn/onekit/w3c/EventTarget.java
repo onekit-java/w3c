@@ -33,7 +33,7 @@ public interface EventTarget  {
 
     default boolean dispatchEvent(Event event) {
         HashMap<String, HashMap<Integer, EventListener>> typeListeners = allTypeListeners.get(this.hashCode());
-        if (!typeListeners.containsKey("change")) {
+        if (typeListeners==null || !typeListeners.containsKey("change")) {
             return false;
         }
         for (EventListener listener : typeListeners.get("change").values()) {

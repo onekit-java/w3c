@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        minSdkVersion 24
+        minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -34,7 +34,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'cn.onekit.x2x:onekit:1.0.0'
     implementation 'cn.onekit.x2x:js:1.0.0'
-    implementation 'cn.onekit.x2x:css:1.0.0'
+    //implementation 'cn.onekit.x2x:css:1.0.0'
 }
 apply plugin: 'com.novoda.bintray-release'
 publish{
